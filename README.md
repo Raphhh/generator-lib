@@ -1,4 +1,4 @@
-# generator─lib
+# generator-lib
 
 This is a generator for [Yeoman](http://yeoman.io).
 
