@@ -20,7 +20,7 @@ you'll have a project that looks like this:
     |   └── MAIN.md
     ├── src
     |   ├── _intro.js
-    |   ├── _ontro.js
+    |   ├── _outro.js
     |   └── main.js
     ├── test
     |   └── lib
