@@ -1,3 +1,3 @@
-test("the root object exists", function() {
+test("the base function exists", function() {
   ok(<%= libNameNoJs %>);
 });

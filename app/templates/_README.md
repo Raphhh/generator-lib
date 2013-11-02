@@ -20,7 +20,7 @@ Or grab the [source](<%= githubUrl %>/dist/<%= libNameNoJs %>.js) ([minified](<%
 
 Basic usage is as follows:
 
-    var n = new <%= libNameNoJs %>();
+    <%= libNameNoJs %>();
 
 For advanced usage, see the documentation.
 

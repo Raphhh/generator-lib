@@ -1,10 +1,9 @@
 /* <%= libName %> main */
 
-// Base object.
+// Base function.
 var <%= libNameNoJs %> = function() {
-  if (!(this instanceof <%= libNameNoJs %>)) {
-    return new <%= libNameNoJs %>();
-  }
+  // Add functionality here.
+  return true;
 };
 
 
