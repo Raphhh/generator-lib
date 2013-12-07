@@ -83,6 +83,21 @@ setting the generated project up for GitHub Pages is easy. Just:
 The `index.html` in the generated project root will be the homepage at
 `http://{your username}.github.io/{project name}`.
 
+## Contributing
+
+See 'Development' below.
+
+## Development
+
+1. Fork the repo and clone.
+2. From the project folder, `npm link`. (This creates a local link to the project so you can test.)
+3. Make changes, commit, push.
+4. Submit a pull request.
+
+## Tests
+
+To do.
+
 ## License
 
 MIT. See `LICENSE.txt` in this directory.
