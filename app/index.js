@@ -66,7 +66,6 @@ LibGenerator.prototype.app = function app() {
   this.mkdir('demo/assets');
   this.mkdir('src');
   this.mkdir('test');
-  this.mkdir('test/lib');
 
   this.template('_bower.json', 'bower.json');
   this.template('_Gruntfile.js', 'Gruntfile.js');
@@ -94,8 +93,6 @@ LibGenerator.prototype.app = function app() {
   this.template('src/_outro.js', 'src/_outro.js');
   this.copy('src/main.js', 'src/main.js');
 
-  this.copy('test/lib/qunit.css', 'test/lib/qunit.css');
-  this.copy('test/lib/qunit.js', 'test/lib/qunit.js');
   this.template('test/all.js', 'test/all.js');
   this.template('test/all.html', 'test/all.html');
 
